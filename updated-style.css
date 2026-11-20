@@ -1,0 +1,176 @@
+body {
+    background-color: #F3EEE7;
+    color: #263447;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+header {
+    background-color: #DCE4EC;
+    color: #263447;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #C7D2DE;
+}
+
+header h1 {
+    color: #263447;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+}
+
+header h2 {
+    color: #526174;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+main {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+section {
+    background-color: #FBF8F3;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #E2DAD0;
+    border-radius: 14px;
+}
+
+section h2 {
+    color: #294B70;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.profile-placeholder {
+    flex: 1;
+    aspect-ratio: 4 / 3;
+    background-color: #E9EDF2;
+    border: 1px solid #D5DEE8;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.profile-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    background-color: #E8EDF2;
+    color: #294B70;
+    padding: 0.5rem 0.9rem;
+    border: 1px solid #D5DEE8;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.project-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem auto 0;
+    border-radius: 10px;
+}
+
+a {
+    color: #294B70;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #263447;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #E7DED3;
+    color: #526174;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 2rem 1rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header h2 {
+        font-size: 0.95rem;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    section {
+        padding: 1.25rem;
+    }
+
+    section h2 {
+        font-size: 1.3rem;
+    }
+
+    .about-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .profile-placeholder {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    ul {
+        gap: 0.5rem;
+    }
+
+    li {
+        font-size: 0.85rem;
+    }
+
+}
